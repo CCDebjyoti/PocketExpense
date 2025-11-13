@@ -1,10 +1,8 @@
 package com.yourorg.pocketexpense.repository;
 
 import com.yourorg.pocketexpense.entity.Expense;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.*;
 import org.springframework.data.repository.query.Param;
-
 import java.time.LocalDate;
 import java.math.BigDecimal;
 import java.util.List;
